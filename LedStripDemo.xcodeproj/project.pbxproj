@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182133701CAEBD8A00F3E73A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1821336F1CAEBD8A00F3E73A /* AppDelegate.swift */; };
+		182133721CAEBD8A00F3E73A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182133711CAEBD8A00F3E73A /* ViewController.swift */; };
+		182133751CAEBD8A00F3E73A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182133731CAEBD8A00F3E73A /* Main.storyboard */; };
+		182133771CAEBD8A00F3E73A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182133761CAEBD8A00F3E73A /* Assets.xcassets */; };
+		1821337A1CAEBD8A00F3E73A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182133781CAEBD8A00F3E73A /* LaunchScreen.storyboard */; };
+		182133821CAED8C900F3E73A /* LedStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182133811CAED8C900F3E73A /* LedStrip.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1821336C1CAEBD8A00F3E73A /* LedStripDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LedStripDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1821336F1CAEBD8A00F3E73A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		182133711CAEBD8A00F3E73A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		182133741CAEBD8A00F3E73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		182133761CAEBD8A00F3E73A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		182133791CAEBD8A00F3E73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1821337B1CAEBD8A00F3E73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182133811CAED8C900F3E73A /* LedStrip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LedStrip.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182133691CAEBD8A00F3E73A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182133631CAEBD8A00F3E73A = {
+			isa = PBXGroup;
+			children = (
+				1821336E1CAEBD8A00F3E73A /* LedStripDemo */,
+				1821336D1CAEBD8A00F3E73A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1821336D1CAEBD8A00F3E73A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1821336C1CAEBD8A00F3E73A /* LedStripDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1821336E1CAEBD8A00F3E73A /* LedStripDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1821336F1CAEBD8A00F3E73A /* AppDelegate.swift */,
+				182133711CAEBD8A00F3E73A /* ViewController.swift */,
+				182133731CAEBD8A00F3E73A /* Main.storyboard */,
+				182133761CAEBD8A00F3E73A /* Assets.xcassets */,
+				182133781CAEBD8A00F3E73A /* LaunchScreen.storyboard */,
+				1821337B1CAEBD8A00F3E73A /* Info.plist */,
+				182133811CAED8C900F3E73A /* LedStrip.swift */,
+			);
+			path = LedStripDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1821336B1CAEBD8A00F3E73A /* LedStripDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1821337E1CAEBD8A00F3E73A /* Build configuration list for PBXNativeTarget "LedStripDemo" */;
+			buildPhases = (
+				182133681CAEBD8A00F3E73A /* Sources */,
+				182133691CAEBD8A00F3E73A /* Frameworks */,
+				1821336A1CAEBD8A00F3E73A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LedStripDemo;
+			productName = LedStripDemo;
+			productReference = 1821336C1CAEBD8A00F3E73A /* LedStripDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182133641CAEBD8A00F3E73A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Peter;
+				TargetAttributes = {
+					1821336B1CAEBD8A00F3E73A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 8NL869R6VY;
+					};
+				};
+			};
+			buildConfigurationList = 182133671CAEBD8A00F3E73A /* Build configuration list for PBXProject "LedStripDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 182133631CAEBD8A00F3E73A;
+			productRefGroup = 1821336D1CAEBD8A00F3E73A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1821336B1CAEBD8A00F3E73A /* LedStripDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1821336A1CAEBD8A00F3E73A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1821337A1CAEBD8A00F3E73A /* LaunchScreen.storyboard in Resources */,
+				182133771CAEBD8A00F3E73A /* Assets.xcassets in Resources */,
+				182133751CAEBD8A00F3E73A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182133681CAEBD8A00F3E73A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182133721CAEBD8A00F3E73A /* ViewController.swift in Sources */,
+				182133821CAED8C900F3E73A /* LedStrip.swift in Sources */,
+				182133701CAEBD8A00F3E73A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		182133731CAEBD8A00F3E73A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182133741CAEBD8A00F3E73A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		182133781CAEBD8A00F3E73A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182133791CAEBD8A00F3E73A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1821337C1CAEBD8A00F3E73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1821337D1CAEBD8A00F3E73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1821337F1CAEBD8A00F3E73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LedStripDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Peter.LedStripDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		182133801CAEBD8A00F3E73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LedStripDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Peter.LedStripDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182133671CAEBD8A00F3E73A /* Build configuration list for PBXProject "LedStripDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1821337C1CAEBD8A00F3E73A /* Debug */,
+				1821337D1CAEBD8A00F3E73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1821337E1CAEBD8A00F3E73A /* Build configuration list for PBXNativeTarget "LedStripDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1821337F1CAEBD8A00F3E73A /* Debug */,
+				182133801CAEBD8A00F3E73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182133641CAEBD8A00F3E73A /* Project object */;
+}
